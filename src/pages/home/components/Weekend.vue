@@ -70,6 +70,7 @@
             width 100%
     .item-info
         padding .1rem
+        margin-bottom .2rem
         .item-title
             line-height .54rem
             font-size .32rem

@@ -17,10 +17,24 @@
     import HomeRecommend from './components/Recommend'
     import HomeWeekend from './components/Weekend'
 
+    import axios from 'axios'
+
     export default {
         name: "home",
         components: {
             HomeHeader,HomeSwiper,HomeIcons,HomeRecommend,HomeWeekend
+        },
+        methods: {
+          getHomeInfo() {
+              axios.get('/api/index.json')
+                  .then(this.getHomeInfoSucc)
+          } ,
+          getHomeInfoSucc(res){
+              console.log(res)
+          }
+        },
+        mounted() {
+            this.getHomeInfo();
         }
     }
 </script>
