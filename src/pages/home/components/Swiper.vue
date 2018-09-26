@@ -6,11 +6,11 @@
                 <img class="swipe-img" :src="item.imgUrl"/>
             </swiper-slide>
             <!-- Optional controls -->
-            <div class="swiper-pagination"  slot="pagination"></div>s
+            <div class="swiper-pagination"  slot="pagination"></div>
         </swiper>
     </div>
 
-</template>s
+</template>
 
 <script>
     export default {
