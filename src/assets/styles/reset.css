@@ -20,7 +20,7 @@ ul,ol,dl{list-style-type:none}
 html,body{*position:static}
 html{font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size: 50px;}
 address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
-input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;border: none;outline: none}
 input,button{overflow: visible;vertical-align:middle;outline:none}
 body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";font-size:.24rem;color: #333;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
 body{line-height:1.6}
