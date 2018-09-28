@@ -5,7 +5,7 @@
             热销推荐
         </div>
         <ul>
-            <li class="item" v-for="item of recommendList" :key="item.id">
+            <li class="item" v-for="item of list" :key="item.id">
                 <!--<div class="item-img-wrapper">-->
                     <img class="item-img" :src="item.imgUrl"/>
                 <!--</div>-->
@@ -23,46 +23,11 @@
 <script>
     export default {
         name: "recommend",
+        props: {
+            list: Array
+        },
         data() {
             return{
-                recommendList:[
-                    {
-                        id: '0001',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/1606/4a/4ae2bbafcc977a54e2.water.jpg_200x200_2724c6a1.jpg',
-                        title:'合肥海洋世界',
-                        desc:'合肥海洋世界很好玩合肥海洋世界很好玩合肥海洋世界很好玩'
-                    },
-                    {
-                        id: '0002',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/1609/a9/a90f734bbc7b80aea3.water.jpg_200x200_fac101cb.jpg',
-                        title:'合肥万达主题乐园',
-                        desc:'合肥万达主题乐园合肥万达主题乐园合肥万达主题乐园合肥万达主题乐园'
-                    },
-                    {
-                        id: '0003',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/201302/07/f01c7c672bf4ac39c8d65eac.jpg_200x200_56798fd8.jpg',
-                        title:'紫微洞',
-                        desc:'紫微洞紫微洞紫微洞紫微洞'
-                    },
-                    {
-                        id: '0004',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/201405/21/8ef65ef070fed5e9509ca7c3541e3d1a.jpg_200x200_3afc0c15.jpg',
-                        title:'姥山岛',
-                        desc:'姥山岛姥山岛姥山岛姥山岛姥山岛姥山岛'
-                    },
-                    {
-                        id: '0005',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/201402/18/3202d5679fa477beeb49635929b17dbe.jpg_200x200_5d61c58e.jpg',
-                        title:'李鸿章故居',
-                        desc:'李鸿章故居李鸿章故居李鸿章故居李鸿章故居李鸿章故居'
-                    },
-                    {
-                        id: '0006',
-                        imgUrl:'http://img1.qunarzz.com/sight/p0/1708/a3/a3d3dbf3c6a92fdfa3.water.jpg_200x200_bb0d483a.jpg',
-                        title:'滨湖森林湿地公园',
-                        desc:'滨湖森林湿地公园滨湖森林湿地公园滨湖森林湿地公园'
-                    },
-                ]
             }
         }
     }

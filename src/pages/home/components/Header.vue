@@ -7,16 +7,22 @@
             <span class="iconfont">&#xe632;</span>
             输入城市/景点/游玩主题
         </div>
-        <div class="header-right">
-            城市
-            <span class="iconfont arrow_icon">&#xe613;</span>
-        </div>
+        <router-link to="/City">
+            <div class="header-right">
+                {{city}}
+                <span class="iconfont arrow_icon">&#xe613;</span>
+            </div>
+        </router-link>
+
     </div>
 </template>
 
 <script>
     export default {
-        name: "HomeHeader"
+        name: "HomeHeader",
+        props: {
+            city: String
+        }
     }
 </script>
 
@@ -24,7 +30,7 @@
     @import "~styles/varibles.styl"
 
     .header
-        line-height : .86rem
+        line-height : $headerHeight
         display : flex
         background-color : $bgColor
         color : #fff
@@ -50,6 +56,7 @@
             float right
             text-align center
             font-size : .3rem
+            color #fff
         .arrow_icon
             font-size : .25rem
             margin-left : -.06rem

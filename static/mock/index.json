@@ -1,1 +1,137 @@
-"hello"
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList":[
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1808/f4/5f2289f8675f0502.jpg_750x200_ab1633c7.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/66/e5a5cec881702f02.jpg_750x200_67bb5691.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/50/670c61165170f902.jpg_750x200_c4b8d1dc.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/ad/50e124f6caef1e02.jpg_750x200_2bec926d.jpg"
+      }
+    ],
+    "iconList":[
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+        "desc": "自然风光"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "desc": "游乐场"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/48/cb72b99b71974c02.png",
+        "desc": "休闲玩乐"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "合肥必游"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+        "desc": "溜娃儿"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "海洋馆"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "desc": "全部玩乐"
+      }
+    ],
+    "recommendList":[
+      {
+        "id": "0001",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/1606/4a/4ae2bbafcc977a54e2.water.jpg_200x200_2724c6a1.jpg",
+        "title":"合肥海洋世界",
+        "desc":"合肥海洋世界很好玩合肥海洋世界很好玩合肥海洋世界很好玩"
+      },
+      {
+        "id": "0002",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/1609/a9/a90f734bbc7b80aea3.water.jpg_200x200_fac101cb.jpg",
+        "title":"合肥万达主题乐园",
+        "desc":"合肥万达主题乐园合肥万达主题乐园合肥万达主题乐园合肥万达主题乐园"
+      },
+      {
+        "id": "0003",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/201302/07/f01c7c672bf4ac39c8d65eac.jpg_200x200_56798fd8.jpg",
+        "title":"紫微洞",
+        "desc":"紫微洞紫微洞紫微洞紫微洞"
+      },
+      {
+        "id": "0004",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/201405/21/8ef65ef070fed5e9509ca7c3541e3d1a.jpg_200x200_3afc0c15.jpg",
+        "title":"姥山岛",
+        "desc":"姥山岛姥山岛姥山岛姥山岛姥山岛姥山岛"
+      },
+      {
+        "id": "0005",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/201402/18/3202d5679fa477beeb49635929b17dbe.jpg_200x200_5d61c58e.jpg",
+        "title":"李鸿章故居",
+        "desc":"李鸿章故居李鸿章故居李鸿章故居李鸿章故居李鸿章故居"
+      },
+      {
+        "id": "0006",
+        "imgUrl":"http://img1.qunarzz.com/sight/p0/1708/a3/a3d3dbf3c6a92fdfa3.water.jpg_200x200_bb0d483a.jpg",
+        "title":"滨湖森林湿地公园",
+        "desc":"滨湖森林湿地公园滨湖森林湿地公园滨湖森林湿地公园"
+      }
+    ],
+    "weekendList":[
+      {
+        "id": "0001",
+        "imgUrl":"http://img1.qunarzz.com/sight/source/1505/94/23202a6a5864d8.jpg_r_640x214_92f21625.jpg",
+        "title":"合肥必游TOP5",
+        "desc":"尽览名胜旖旎风光，到古迹吊古凭今"
+      },
+      {
+        "id": "0002",
+        "imgUrl":"http://img1.qunarzz.com/sight/source/1505/8b/c2fd277d149df.jpg_r_640x214_81b57b6a.jpg",
+        "title":"醉美历史古韵",
+        "desc":"千年的风雨，赋予了这里深厚的历史积淀"
+      },
+      {
+        "id": "0003",
+        "imgUrl":"http://img1.qunarzz.com/sight/source/1511/fd/0285e145e82233.jpg_r_640x214_b5f10121.jpg",
+        "title":"黟县旅游",
+        "desc":"走进黄山，探寻桃花源里的人家"
+      },
+      {
+        "id": "0004",
+        "imgUrl":"http://img1.qunarzz.com/sight/source/1505/b7/0f18d39e7abfbd.jpg_r_640x214_62749f2c.jpg",
+        "title":"齐享户外自然美景",
+        "desc":"若想感受纯粹的自然，不妨市郊游湖登山"
+      }
+    ]
+  }
+}
