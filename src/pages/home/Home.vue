@@ -40,13 +40,14 @@
           } ,
           getHomeInfoSucc(res){
               res =res.data;
-              const data = res.data;
-              console.log(data);
-              this.city = data.city;
-              this.swiperList = data.swiperList;
-              this.iconList = data.iconList;
-              this.recommendList = data.recommendList;
-              this.weekendList = data.weekendList;
+              if (res.ret && res.data){
+                  const data = res.data;
+                  this.city = data.city;
+                  this.swiperList = data.swiperList;
+                  this.iconList = data.iconList;
+                  this.recommendList = data.recommendList;
+                  this.weekendList = data.weekendList;
+              }
           }
         },
         mounted() {
